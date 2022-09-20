@@ -5,16 +5,16 @@ import githubFinder from '../assets/project4.png'
 import cocktailFinder from '../assets/project5.png'
 import quiz from '../assets/project6.png'
 
-const Work = () => {
+const Projects = () => {
   return (
     <section
-      name='work'
+      name='projects'
       className='w-full md:h-screen text-gray-300 bg-[#0a192f]'
     >
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
-            Work
+            Projects
           </p>
         </div>
 
@@ -220,4 +220,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Projects

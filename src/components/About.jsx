@@ -23,7 +23,7 @@ const About = () => {
           <div>
             <p>
               I'm passionate about keep on learning, picking up experience and
-              learn many new things during my journey in this eneticing world of
+              learn many new things during my journey in this enticing world of
               IT.
             </p>
           </div>

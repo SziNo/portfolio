@@ -29,7 +29,7 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={css} alt='CSS icon' />
             <p className='my-4'>CSS</p>
-          </div>{' '}
+          </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img
               className='w-20 mx-auto'
@@ -37,23 +37,23 @@ const Skills = () => {
               alt='JavaScript icon'
             />
             <p className='my-4'>JavaScript</p>
-          </div>{' '}
+          </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={react} alt='React icon' />
             <p className='my-4'>React</p>
-          </div>{' '}
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={node} alt='NodeJS icon' />
-            <p className='my-4'>NodeJS</p>
-          </div>{' '}
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={mongo} alt='MongoDB icon' />
-            <p className='my-4'>MongoDB</p>
-          </div>{' '}
+          </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={tailwind} alt='Tailwind icon' />
             <p className='my-4'>Tailwind</p>
-          </div>{' '}
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={node} alt='NodeJS icon' />
+            <p className='my-4'>NodeJS</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={mongo} alt='MongoDB icon' />
+            <p className='my-4'>MongoDB</p>
+          </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={github} alt='GitHub icon' />
             <p className='my-4'>GitHub</p>

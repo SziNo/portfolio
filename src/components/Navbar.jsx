@@ -12,7 +12,9 @@ const Navbar = () => {
     <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       {/* Logo */}
       <div>
-        <img src={logo} alt='logo' style={{ width: '50px' }} />
+        <Link to='home' smooth={true} duration={500}>
+          <img src={logo} alt='logo' style={{ width: '50px' }} />
+        </Link>
       </div>
 
       {/* Menu */}
@@ -33,8 +35,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
+          <Link to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li>
