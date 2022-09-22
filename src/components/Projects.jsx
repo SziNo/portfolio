@@ -29,7 +29,7 @@ const Projects = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Memory Game developed with ReactJS
+                  ReactJS / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -61,7 +61,7 @@ const Projects = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Movie Search application made with ReactJS
+                  ReactJS / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -93,7 +93,7 @@ const Projects = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  NodeJS/ExpressJS Web application
+                  NodeJS / ExpressJS / Mongoose / Mongo Atlas
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -125,7 +125,7 @@ const Projects = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Github finder React app
+                  ReactJS / Tailwind
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -157,7 +157,7 @@ const Projects = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Cocktail finder React app
+                  ReactJS / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -189,7 +189,7 @@ const Projects = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS Quiz App
+                  ReactJS / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
