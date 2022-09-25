@@ -13,7 +13,7 @@ const Navbar = () => {
       {/* Logo */}
       <div>
         <Link to='home' smooth={true} duration={500} className='cursor-pointer'>
-          <img src={logo} alt='logo' style={{ width: '50px' }} />
+          <img src={logo} alt='logo' style={{ width: '100px' }} />
         </Link>
       </div>
 
