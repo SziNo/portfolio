@@ -13,7 +13,15 @@ const Navbar = () => {
       {/* Logo */}
       <div>
         <Link to='home' smooth={true} duration={500} className='cursor-pointer'>
-          <img src={logo} alt='logo' style={{ width: '100px' }} />
+          <img
+            src={logo}
+            alt='logo'
+            style={{
+              width: '100px',
+              filter:
+                'invert(77%) sepia(2%) saturate(863%) hue-rotate(173deg) brightness(96%) contrast(80%)',
+            }}
+          />
         </Link>
       </div>
 
