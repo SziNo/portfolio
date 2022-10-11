@@ -1,5 +1,5 @@
 import memoryGame from '../assets/project1.png'
-import movieSearch from '../assets/project2.png'
+import likey from '../assets/project2.png'
 import izorzok from '../assets/project3.png'
 import githubFinder from '../assets/project4.png'
 import cocktailFinder from '../assets/project5.png'
@@ -119,17 +119,17 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${movieSearch})` }}
+            style={{ backgroundImage: `url(${likey})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS / CSS
+                  ReactJS / TypeScript / Firebase / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
-                    href='https://github.com/SziNo/ReactMovieSearch'
+                    href='https://github.com/SziNo/likeyReactFirebaseTSApp'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -138,7 +138,7 @@ const Projects = () => {
                     </button>
                   </a>
                   <a
-                    href='https://codecool-movie-search.netlify.app/'
+                    href='https://likey-app.vercel.app/'
                     target='_blank'
                     rel='noreferrer'
                   >
