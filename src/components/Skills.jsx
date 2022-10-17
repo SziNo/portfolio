@@ -5,7 +5,7 @@ import react from '../assets/react.png'
 import node from '../assets/node.png'
 import mongo from '../assets/mongo.png'
 import tailwind from '../assets/tailwind.png'
-import github from '../assets/github.png'
+import tsa from '../assets/tsa.png'
 
 const Skills = () => {
   return (
@@ -39,6 +39,10 @@ const Skills = () => {
             <p className='my-4'>JavaScript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={tsa} alt='TypeScript icon' />
+            <p className='my-4'>TypeScript</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={react} alt='React icon' />
             <p className='my-4'>React</p>
           </div>
@@ -53,10 +57,6 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={mongo} alt='MongoDB icon' />
             <p className='my-4'>MongoDB</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={github} alt='GitHub icon' />
-            <p className='my-4'>GitHub</p>
           </div>
         </div>
       </div>
