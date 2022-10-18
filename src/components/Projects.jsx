@@ -1,9 +1,4 @@
-import memoryGame from '../assets/project1.png'
-import likey from '../assets/project2.png'
-import izorzok from '../assets/project3.png'
-import githubFinder from '../assets/project4.png'
-import mern from '../assets/project5.png'
-import quiz from '../assets/project6.png'
+import cover from '../assets/cover.jpg'
 
 const Projects = () => {
   return (
@@ -22,10 +17,11 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid item */}
           <div
-            style={{ backgroundImage: `url(${mern})` }}
+            style={{ backgroundImage: `url(${cover})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            <div className='opacity-0 group-hover:opacity-100'>
+            {/* Hover effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex p-6'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   MERN / Mongoose / Redux Toolkit / JWT
@@ -54,10 +50,9 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${memoryGame})` }}
+            style={{ backgroundImage: `url(${cover})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
@@ -87,10 +82,10 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${izorzok})` }}
+            style={{ backgroundImage: `url(${cover})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 p-4'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   NodeJS / ExpressJS / Mongoose / Mongo Atlas
@@ -119,7 +114,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${githubFinder})` }}
+            style={{ backgroundImage: `url(${cover})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='opacity-0 group-hover:opacity-100'>
@@ -151,10 +146,10 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${likey})` }}
+            style={{ backgroundImage: `url(${cover})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 p-2'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   ReactJS / TypeScript / Firebase / CSS
@@ -183,7 +178,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${quiz})` }}
+            style={{ backgroundImage: `url(${cover})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='opacity-0 group-hover:opacity-100'>
