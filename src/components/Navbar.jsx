@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import logo from '../assets/logo.png'
 import { Link } from 'react-scroll'
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
