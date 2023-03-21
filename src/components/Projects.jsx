@@ -88,11 +88,11 @@ const Projects = () => {
             <div className='opacity-0 group-hover:opacity-100 p-4'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  NodeJS / ExpressJS / Mongoose / Mongo Atlas
+                  ReactJS / Material UI
                 </span>
                 <div className='pt-8 text-center'>
                   <a
-                    href='https://github.com/SziNo/i-zorzok-MongoNodeExpress'
+                    href='https://github.com/SziNo/fitnessApp'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -101,7 +101,7 @@ const Projects = () => {
                     </button>
                   </a>
                   <a
-                    href='https://safe-beach-25692.herokuapp.com/'
+                    href='https://fitness-app-xkzx.vercel.app/'
                     target='_blank'
                     rel='noreferrer'
                   >
