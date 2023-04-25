@@ -2,7 +2,7 @@ function Contact() {
   return (
     <section
       name='contact'
-      className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'
+      className='w-full h-screen bg-[#0a192f] flex justify-center items-center px-4 pb-2'
     >
       <form
         method='POST'

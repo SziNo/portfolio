@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10'>
       {/* Logo */}
       <div>
         <Link to='home' smooth={true} duration={500} className='cursor-pointer'>

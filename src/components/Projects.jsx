@@ -18,8 +18,14 @@ const Projects = () => {
           {/* Grid item */}
           <div
             style={{ backgroundImage: `url(${cover})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'
           >
+            {/* Title */}
+            <div className='absolute top-0 left-0 w-full h-full flex justify-center items-start mt-3 group-hover:opacity-0 pointer-events-none'>
+              <span className='text-3xl font-bold text-gray-300 font-sans'>
+                Helpdesk App
+              </span>
+            </div>
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100 flex p-6'>
               <div>
@@ -51,8 +57,13 @@ const Projects = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${cover})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'
           >
+            <div className='absolute top-0 left-0 w-full h-full flex justify-center items-start mt-3 group-hover:opacity-0 pointer-events-none'>
+              <span className='text-3xl font-bold text-gray-300 font-sans'>
+                Memory Game
+              </span>
+            </div>
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
@@ -83,8 +94,13 @@ const Projects = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${cover})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'
           >
+            <div className='absolute top-0 left-0 w-full h-full flex justify-center items-start mt-3 group-hover:opacity-0 pointer-events-none'>
+              <span className='text-3xl font-bold text-gray-300 font-sans'>
+                Fitness App
+              </span>
+            </div>
             <div className='opacity-0 group-hover:opacity-100 p-4'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
@@ -115,8 +131,13 @@ const Projects = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${cover})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'
           >
+            <div className='absolute top-0 left-0 w-full h-full flex justify-center items-start mt-3 group-hover:opacity-0 pointer-events-none'>
+              <span className='text-3xl font-bold text-gray-300 font-sans'>
+                GitHub Finder
+              </span>
+            </div>
             <div className='opacity-0 group-hover:opacity-100'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
@@ -147,8 +168,13 @@ const Projects = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${cover})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'
           >
+            <div className='absolute top-0 left-0 w-full h-full flex justify-center items-start mt-3 group-hover:opacity-0 pointer-events-none'>
+              <span className='text-3xl font-bold text-gray-300 font-sans'>
+                Likey Blog
+              </span>
+            </div>
             <div className='opacity-0 group-hover:opacity-100 p-2'>
               <div>
                 <span className='text-2xl font-bold text-white tracking-wider'>
@@ -179,16 +205,21 @@ const Projects = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${cover})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'
           >
+            <div className='absolute top-0 left-0 w-full h-full flex justify-center items-start mt-3 group-hover:opacity-0 pointer-events-none'>
+              <span className='text-3xl font-bold text-gray-300 font-sans'>
+                Real Estate App
+              </span>
+            </div>
             <div className='opacity-0 group-hover:opacity-100'>
-              <div>
+              <div className='p-4'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS / CSS
+                  ReactJS / Firebase / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
-                    href='https://github.com/SziNo/quizApp'
+                    href='https://github.com/SziNo/realEstateAppWithFirebase'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -197,7 +228,7 @@ const Projects = () => {
                     </button>
                   </a>
                   <a
-                    href='https://quiz-app-gamma-nine.vercel.app/'
+                    href='https://real-estate-app-with-firebase.vercel.app/'
                     target='_blank'
                     rel='noreferrer'
                   >
