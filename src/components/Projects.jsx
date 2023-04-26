@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section
       name='projects'
-      className='w-full md:h-screen text-gray-300 bg-[#0a192f]'
+      className='w-full md:h-screen text-gray-300 bg-[#0a192f] py-10'
     >
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
@@ -27,8 +27,8 @@ const Projects = () => {
               </span>
             </div>
             {/* Hover effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex p-6'>
-              <div>
+            <div className='opacity-0 group-hover:opacity-100 p-6 transition duration-300 transform scale-0 group-hover:scale-100'>
+              <div className='flex flex-col justify-center items-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   MERN / Mongoose / Redux Toolkit / JWT
                 </span>
@@ -64,10 +64,10 @@ const Projects = () => {
                 Memory Game
               </span>
             </div>
-            <div className='opacity-0 group-hover:opacity-100'>
-              <div>
+            <div className='opacity-0 group-hover:opacity-100 p-6 transition duration-300 transform scale-0 group-hover:scale-100'>
+              <div className='flex flex-col justify-center items-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS / CSS
+                  React / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -101,10 +101,10 @@ const Projects = () => {
                 Fitness App
               </span>
             </div>
-            <div className='opacity-0 group-hover:opacity-100 p-4'>
-              <div>
+            <div className='opacity-0 group-hover:opacity-100 p-6 transition duration-300 transform scale-0 group-hover:scale-100'>
+              <div className='flex flex-col justify-center items-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS / Material UI
+                  React / MUI
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -138,10 +138,10 @@ const Projects = () => {
                 GitHub Finder
               </span>
             </div>
-            <div className='opacity-0 group-hover:opacity-100'>
-              <div>
+            <div className='opacity-0 group-hover:opacity-100 p-6 transition duration-300 transform scale-0 group-hover:scale-100'>
+              <div className='flex flex-col justify-center items-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS / Tailwind
+                  React / Tailwind
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -175,10 +175,10 @@ const Projects = () => {
                 Likey Blog
               </span>
             </div>
-            <div className='opacity-0 group-hover:opacity-100 p-2'>
-              <div>
+            <div className='opacity-0 group-hover:opacity-100 p-5 transition duration-300 transform scale-0 group-hover:scale-100'>
+              <div className='flex flex-col justify-center items-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS / TypeScript / Firebase / CSS
+                  React / TypeScript / Firebase / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
@@ -212,10 +212,10 @@ const Projects = () => {
                 Real Estate App
               </span>
             </div>
-            <div className='opacity-0 group-hover:opacity-100'>
-              <div className='p-4'>
+            <div className='opacity-0 group-hover:opacity-100 p-6 transition duration-300 transform scale-0 group-hover:scale-100'>
+              <div className='flex flex-col justify-center items-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  ReactJS / Firebase / CSS
+                  React / Firebase / CSS
                 </span>
                 <div className='pt-8 text-center'>
                   <a
