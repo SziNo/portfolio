@@ -55,10 +55,21 @@ export const getArrayData = () => {
       demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
     },
   ]
+  const skillNames = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Tailwind',
+    'NodeJS',
+    'MongoDB',
+  ]
 
   return {
     socialIcons,
     navbarLinkNames,
     projectItems,
+    skillNames,
   }
 }
