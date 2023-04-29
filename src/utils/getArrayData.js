@@ -67,7 +67,7 @@ export const getArrayData = () => {
     },
   ]
 
-  const skillNames = [
+  const skillsContainer = [
     { name: 'HTML', img: html },
     { name: 'CSS', img: css },
     { name: 'JavaScript', img: javascript },
@@ -82,6 +82,6 @@ export const getArrayData = () => {
     socialIcons,
     navbarLinkNames,
     projectItems,
-    skillNames,
+    skillsContainer,
   }
 }
