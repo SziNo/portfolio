@@ -14,11 +14,17 @@ const Home = () => {
           I'm a Front-End developer
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          focused on learning and building basically anything related to ReactJS
-          and CSS.
-          <br /> In the future I'd like to broaden my knowledge with many other
-          technologies, such as NextJS, React Native, MERN stack and many more I
-          don't even know of yet.
+          focused on learning and building basically anything related to React
+          and CSS/SASS, also got some work experience with these stacks.
+          Recently I'm rather into gaining as much knowledge as possible with
+          Next 12 & 13.
+          <br />
+          <br />
+          I'd like to broaden my knowledge in the future with many other
+          technologies tho, such as Vue, Angular, React Native, Node, Express,
+          Python (mainly the data visualization direction with Pandas,
+          Matplotlib, Seaborn, NumPy) and many more I don't even know of yet or
+          just simply forgot to list.
         </p>
         <div>
           <Link
