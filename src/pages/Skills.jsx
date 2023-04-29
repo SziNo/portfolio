@@ -2,10 +2,10 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
-import node from '../assets/node.png'
-import mongo from '../assets/mongo.png'
+import nodejs from '../assets/node.png'
+import mongodb from '../assets/mongo.png'
 import tailwind from '../assets/tailwind.png'
-import ts from '../assets/ts.png'
+import typescript from '../assets/ts.png'
 
 const Skills = () => {
   return (
@@ -39,7 +39,11 @@ const Skills = () => {
             <p className='my-4'>JavaScript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={ts} alt='TypeScript icon' />
+            <img
+              className='w-20 mx-auto'
+              src={typescript}
+              alt='TypeScript icon'
+            />
             <p className='my-4'>TypeScript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -51,11 +55,11 @@ const Skills = () => {
             <p className='my-4'>Tailwind</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={node} alt='NodeJS icon' />
+            <img className='w-20 mx-auto' src={nodejs} alt='NodeJS icon' />
             <p className='my-4'>NodeJS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={mongo} alt='MongoDB icon' />
+            <img className='w-20 mx-auto' src={mongodb} alt='MongoDB icon' />
             <p className='my-4'>MongoDB</p>
           </div>
         </div>
