@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 import logo from '../assets/logo.png'
+import SocialIconsContainer from '../components/SocialIconsContainer'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -103,40 +103,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/norbert-szikora-9172b8250/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/SziNo'
-              target='_blank'
-              rel='noreferrer'
-            >
-              GitHub <FaGithub size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:szino1848@gmail.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <SocialIconsContainer />
     </nav>
   )
 }

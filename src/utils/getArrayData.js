@@ -1,5 +1,21 @@
 export const getArrayData = () => {
-  const socialIconNames = ['LinkedIn', 'GitHub', 'Email']
+  const socialIcons = [
+    {
+      name: 'LinkedIn',
+      color: 'blue',
+      hrefPath: 'https://www.linkedin.com/in/norbert-szikora-9172b8250/',
+    },
+    {
+      name: 'GitHub',
+      color: 'gray',
+      hrefPath: 'https://github.com/SziNo',
+    },
+    {
+      name: 'Email',
+      color: 'red',
+      hrefPath: 'mailto:szino1848@gmail.com',
+    },
+  ]
   const navbarLinkNames = ['Home', 'About', 'Skills', 'Projects', 'Contact']
   const projectItems = [
     {
@@ -41,7 +57,7 @@ export const getArrayData = () => {
   ]
 
   return {
-    socialIconNames,
+    socialIcons,
     navbarLinkNames,
     projectItems,
   }
