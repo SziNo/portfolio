@@ -4,7 +4,7 @@ const ProjectsItem = ({ name, stacks, codePath, demoPath }) => {
   return (
     <div
       style={{ backgroundImage: `url(${cover})` }}
-      className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'
+      className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative overflow-hidden'
     >
       {/* Title */}
       <div className='absolute top-0 left-0 w-full h-full flex justify-center items-start mt-3 group-hover:opacity-0 pointer-events-none'>
