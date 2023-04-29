@@ -25,7 +25,9 @@ export const getArrayData = () => {
       hrefPath: 'mailto:szino1848@gmail.com',
     },
   ]
+
   const navbarLinkNames = ['Home', 'About', 'Skills', 'Projects', 'Contact']
+
   const projectItems = [
     {
       name: 'Helpdesk App',
@@ -64,25 +66,16 @@ export const getArrayData = () => {
       demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
     },
   ]
+
   const skillNames = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'TypeScript',
-    'React',
-    'Tailwind',
-    'NodeJS',
-    'MongoDB',
-  ]
-  const imagesContainer = [
-    html,
-    css,
-    javascript,
-    typescript,
-    react,
-    nodejs,
-    mongodb,
-    tailwind,
+    { name: 'HTML', img: html },
+    { name: 'CSS', img: css },
+    { name: 'JavaScript', img: javascript },
+    { name: 'TypeScript', img: typescript },
+    { name: 'React', img: react },
+    { name: 'Tailwind', img: nodejs },
+    { name: 'NodeJS', img: mongodb },
+    { name: 'MongoDB', img: tailwind },
   ]
 
   return {
@@ -90,6 +83,5 @@ export const getArrayData = () => {
     navbarLinkNames,
     projectItems,
     skillNames,
-    imagesContainer,
   }
 }
