@@ -7,8 +7,8 @@ import NavbarContainer from './NavbarContainer'
 import { useMediaQuery } from 'react-responsive'
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
-  const handleClick = () => setNav(!nav)
+  const [isNavVisible, setIsNavVisible] = useState(false)
+  const handleClick = () => setIsNavVisible((prev) => !prev)
   const isDesktop = useMediaQuery({ minWidth: 768 })
 
   return (
@@ -33,13 +33,13 @@ const Navbar = () => {
         className=' text-4xl md:hidden z-10 cursor-pointer'
         onClick={handleClick}
       >
-        {nav ? <FaTimes /> : <FaBars />}
+        {isNavVisible ? <FaTimes /> : <FaBars />}
       </div>
 
       {/* Menu */}
       <NavbarContainer
         isDesktop={isDesktop}
-        nav={nav}
+        isNavVisible={isNavVisible}
         handleClick={handleClick}
       />
 

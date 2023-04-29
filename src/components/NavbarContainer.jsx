@@ -1,7 +1,7 @@
 import { getArrayData } from '../utils/getArrayData'
 import NavbarItem from './NavbarItem'
 
-const NavbarContainer = ({ isDesktop, nav, handleClick }) => {
+const NavbarContainer = ({ isDesktop, isNavVisible, handleClick }) => {
   const { navbarLinkNames } = getArrayData()
 
   return (
@@ -9,7 +9,7 @@ const NavbarContainer = ({ isDesktop, nav, handleClick }) => {
       className={
         isDesktop
           ? 'hidden md:flex'
-          : nav
+          : isNavVisible
           ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
           : 'hidden'
       }
