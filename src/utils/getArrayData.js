@@ -36,10 +36,10 @@ export const getArrayData = () => {
       demoPath: 'https://helpdesk-mern.onrender.com/',
     },
     {
-      name: 'Memory Game',
-      stacks: ['React', 'CSS'],
-      codePath: 'https://github.com/SziNo/memoryGame',
-      demoPath: 'https://dashing-seahorse-e2dcf5.netlify.app/',
+      name: 'Real Estate App',
+      stacks: ['React', 'Firebase', 'CSS'],
+      codePath: 'https://github.com/SziNo/realEstateAppWithFirebase',
+      demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
     },
     {
       name: 'Fitness App',
@@ -54,16 +54,16 @@ export const getArrayData = () => {
       demoPath: 'https://github-finder-kappa-sepia.vercel.app/',
     },
     {
+      name: 'Memory Game',
+      stacks: ['React', 'CSS'],
+      codePath: 'https://github.com/SziNo/memoryGame',
+      demoPath: 'https://dashing-seahorse-e2dcf5.netlify.app/',
+    },
+    {
       name: 'Likey Blog',
       stacks: ['React', 'TypeScript', 'Firebase', 'CSS'],
       codePath: 'https://github.com/SziNo/likeyReactFirebaseTSApp',
       demoPath: 'https://likey-app.vercel.app/',
-    },
-    {
-      name: 'Real Estate App',
-      stacks: ['React', 'Firebase', 'CSS'],
-      codePath: 'https://github.com/SziNo/realEstateAppWithFirebase',
-      demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
     },
   ]
 
