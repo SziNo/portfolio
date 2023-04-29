@@ -73,9 +73,9 @@ export const getArrayData = () => {
     { name: 'JavaScript', img: javascript },
     { name: 'TypeScript', img: typescript },
     { name: 'React', img: react },
-    { name: 'Tailwind', img: nodejs },
-    { name: 'NodeJS', img: mongodb },
-    { name: 'MongoDB', img: tailwind },
+    { name: 'Tailwind', img: tailwind },
+    { name: 'NodeJS', img: nodejs },
+    { name: 'MongoDB', img: mongodb },
   ]
 
   return {
