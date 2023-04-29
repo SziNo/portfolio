@@ -4,7 +4,7 @@ const NavbarItem = ({ isDesktop, name, handleClick }) => {
   return (
     <li className={isDesktop ? '' : 'py-6 text-4xl'}>
       <Link
-        onClick={isDesktop ? undefined : handleClick}
+        onClick={!isDesktop && handleClick}
         to={name.toLowerCase()}
         smooth={true}
         duration={500}
