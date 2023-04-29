@@ -1,3 +1,12 @@
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import javascript from '../assets/javascript.png'
+import typescript from '../assets/ts.png'
+import react from '../assets/react.png'
+import nodejs from '../assets/node.png'
+import mongodb from '../assets/mongo.png'
+import tailwind from '../assets/tailwind.png'
+
 export const getArrayData = () => {
   const socialIcons = [
     {
@@ -65,11 +74,22 @@ export const getArrayData = () => {
     'NodeJS',
     'MongoDB',
   ]
+  const imagesContainer = [
+    html,
+    css,
+    javascript,
+    typescript,
+    react,
+    nodejs,
+    mongodb,
+    tailwind,
+  ]
 
   return {
     socialIcons,
     navbarLinkNames,
     projectItems,
     skillNames,
+    imagesContainer,
   }
 }
