@@ -42,10 +42,10 @@ export const getArrayData = () => {
       demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
     },
     {
-      name: 'Fitness App',
-      stacks: ['React', 'MUI'],
-      codePath: 'https://github.com/SziNo/fitnessApp',
-      demoPath: 'https://fitness-app-xkzx.vercel.app/',
+      name: 'HooBank',
+      stacks: ['React', 'Tailwind'],
+      codePath: 'https://github.com/SziNo/hoobank',
+      demoPath: 'https://hoobank-alpha.vercel.app/',
     },
     {
       name: 'GitHub Finder',
@@ -60,10 +60,10 @@ export const getArrayData = () => {
       demoPath: 'https://dashing-seahorse-e2dcf5.netlify.app/',
     },
     {
-      name: 'Likey Blog',
-      stacks: ['React', 'TypeScript', 'Firebase', 'CSS'],
-      codePath: 'https://github.com/SziNo/likeyReactFirebaseTSApp',
-      demoPath: 'https://likey-app.vercel.app/',
+      name: 'Fitness App',
+      stacks: ['React', 'MUI'],
+      codePath: 'https://github.com/SziNo/fitnessApp',
+      demoPath: 'https://fitness-app-xkzx.vercel.app/',
     },
   ]
 
