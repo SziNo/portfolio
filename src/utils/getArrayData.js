@@ -36,22 +36,22 @@ export const getArrayData = () => {
       demoPath: 'https://helpdesk-mern.onrender.com/',
     },
     {
-      name: 'Real Estate App',
-      stacks: ['React', 'Firebase', 'CSS'],
-      codePath: 'https://github.com/SziNo/realEstateAppWithFirebase',
-      demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
-    },
-    {
-      name: 'HooBank',
-      stacks: ['React', 'Tailwind'],
-      codePath: 'https://github.com/SziNo/hoobank',
-      demoPath: 'https://hoobank-alpha.vercel.app/',
-    },
-    {
       name: 'GitHub Finder',
       stacks: ['React', 'Tailwind'],
       codePath: 'https://github.com/SziNo/githubFinder',
       demoPath: 'https://github-finder-kappa-sepia.vercel.app/',
+    },
+    {
+      name: 'Metaverse',
+      stacks: ['Next', 'Tailwind', 'Framer Motion'],
+      codePath: 'https://github.com/SziNo/metaverse-next13',
+      demoPath: 'https://metaverse-next13-phi.vercel.app/',
+    },
+    {
+      name: 'Real Estate App',
+      stacks: ['React', 'Firebase', 'CSS'],
+      codePath: 'https://github.com/SziNo/realEstateAppWithFirebase',
+      demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
     },
     {
       name: 'Memory Game',
@@ -60,10 +60,10 @@ export const getArrayData = () => {
       demoPath: 'https://dashing-seahorse-e2dcf5.netlify.app/',
     },
     {
-      name: 'Fitness App',
-      stacks: ['React', 'MUI'],
-      codePath: 'https://github.com/SziNo/fitnessApp',
-      demoPath: 'https://fitness-app-xkzx.vercel.app/',
+      name: 'HooBank',
+      stacks: ['React', 'Tailwind'],
+      codePath: 'https://github.com/SziNo/hoobank',
+      demoPath: 'https://hoobank-alpha.vercel.app/',
     },
   ]
 
