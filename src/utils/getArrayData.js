@@ -36,10 +36,10 @@ export const getArrayData = () => {
       demoPath: 'https://helpdesk-mern.onrender.com/',
     },
     {
-      name: 'GitHub Finder',
-      stacks: ['React', 'Tailwind'],
-      codePath: 'https://github.com/SziNo/githubFinder',
-      demoPath: 'https://github-finder-kappa-sepia.vercel.app/',
+      name: 'Sumz',
+      stacks: ['React', 'Tailwind', 'RTK Query'],
+      codePath: 'https://github.com/SziNo/gpt-4-summarizer',
+      demoPath: 'https://gpt-4-summarizer.vercel.app/',
     },
     {
       name: 'Metaverse',
