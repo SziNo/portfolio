@@ -18,7 +18,7 @@ const ProjectsItem = ({ name, stacks, codePath, demoPath }) => {
           <span className='text-2xl font-bold text-white tracking-wider'>
             {stacks.join(' / ')}
           </span>
-          <div className='pt-8 text-center'>
+          <div className='pt-8 text-center flex'>
             <a href={codePath} target='_blank' rel='noreferrer'>
               <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-pink-600 font-bold text-lg'>
                 Code
