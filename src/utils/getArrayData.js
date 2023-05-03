@@ -36,6 +36,12 @@ export const getArrayData = () => {
       demoPath: 'https://helpdesk-mern.onrender.com/',
     },
     {
+      name: 'Shirtify',
+      stacks: ['React', 'ThreeJS', 'Tailwind', 'Framer Motion'],
+      codePath: 'https://github.com/SziNo/Shirtify/tree/master/client',
+      demoPath: 'https://shirtify.vercel.app/',
+    },
+    {
       name: 'Sumz',
       stacks: ['React', 'Tailwind', 'RTK Query'],
       codePath: 'https://github.com/SziNo/gpt-4-summarizer',
@@ -52,12 +58,6 @@ export const getArrayData = () => {
       stacks: ['React', 'Firebase', 'CSS'],
       codePath: 'https://github.com/SziNo/realEstateAppWithFirebase',
       demoPath: 'https://real-estate-app-with-firebase.vercel.app/',
-    },
-    {
-      name: 'Memory Game',
-      stacks: ['React', 'CSS'],
-      codePath: 'https://github.com/SziNo/memoryGame',
-      demoPath: 'https://dashing-seahorse-e2dcf5.netlify.app/',
     },
     {
       name: 'HooBank',
