@@ -1,4 +1,3 @@
-import { Link } from 'react-scroll'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Home = () => {
@@ -27,19 +26,18 @@ const Home = () => {
           just simply forgot to list.
         </p>
         <div>
-          <Link
-            to='projects'
-            smooth={true}
-            duration={500}
-            style={{ display: 'inline-block' }}
+          <a
+            href='https://portfolio-three-d.vercel.app/'
+            target='_blank'
+            rel='noreferrer'
           >
             <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 transition duration-300 rounded-lg'>
-              View Projects
-              <span className='group-hover:rotate-90 duration-300'>
+              New Portfolio
+              <span className='group-hover:rotate-[-45deg] duration-300'>
                 <HiArrowNarrowRight className='ml-2' />
               </span>
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </section>
